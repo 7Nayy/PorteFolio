@@ -1,39 +1,49 @@
+/* Pour tous les paragraphes (<p>) à l'intérieur des éléments avec la classe 'post', applique une hauteur de ligne de 7 unités. */
 .post p {
   @apply leading-7;
 }
 
+/* Pour tous les éléments <code> à l'intérieur des éléments avec la classe 'post', applique plusieurs classes de style pour définir l'apparence du code. */
 .post code {
   @apply rounded-sm bg-neutral-800 px-1 py-[2px] text-orange-500;
 }
 
+/* Pour tous les éléments <h2> à l'intérieur des éléments avec la classe 'post', applique plusieurs classes de style pour définir la taille du texte et la couleur. */
 .post h2 {
   @apply mt-6 text-3xl text-neutral-100;
 }
 
+/* Pour tous les éléments <h3> à l'intérieur des éléments avec la classe 'post', applique plusieurs classes de style pour définir la taille du texte et la couleur. */
 .post h3 {
   @apply mt-4 text-xl text-neutral-100;
 }
 
+/* (Répétition) Pour tous les éléments <code> à l'intérieur des éléments avec la classe 'post', applique plusieurs classes de style pour définir l'apparence du code. */
 .post code {
   @apply rounded-sm bg-neutral-800 px-1 py-[2px] text-red-500;
 }
 
+/* Pour tous les liens (<a>) à l'intérieur des éléments avec la classe 'post', applique plusieurs classes de style pour définir la couleur du texte et le soulignement. */
 .post a {
   @apply text-neutral-100 underline;
 }
 
+/* Pour toutes les listes non ordonnées (<ul>) à l'intérieur des éléments avec la classe 'post', applique une liste avec des puces. */
 .post ul {
   @apply list-disc;
 }
 
+/* Pour tous les éléments <blockquote> à l'intérieur des éléments avec la classe 'post', applique plusieurs classes de style pour définir l'apparence de la citation. */
 .post blockquote {
   @apply flex flex-row gap-2 before:block before:h-auto before:w-1 before:max-w-[1px] before:bg-red-400 before:content-[''];
 }
 
+/* Pour tous les éléments <pre> à l'intérieur des éléments avec la classe 'post', applique une marge intérieure de 4 unités. */
 .post pre {
   @apply p-4;
 }
 
+/* Pour tous les éléments <code> à l'intérieur des éléments <pre> à l'intérieur des éléments avec la classe 'post', rend l'arrière-plan transparent. */
 .post pre > code {
   @apply bg-transparent;
 }

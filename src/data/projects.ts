@@ -6,7 +6,7 @@ export type Project = {
 };
 
 const projects: Project[] = [
-  {
+/*  {
     title: "Dictionary App",
     techs: ["ReactJS (NextJS)", "react-query", "zod"],
     link: "https://github.com/MaeWolff/dictionary-app",
@@ -21,7 +21,7 @@ const projects: Project[] = [
     techs: ["Astro"],
     link: "/",
     isComingSoon: true,
-  },
+  },*/
 ];
 
 export default projects;
