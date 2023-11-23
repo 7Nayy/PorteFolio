@@ -22,6 +22,11 @@ const projects: Project[] = [
     link: "/",
     isComingSoon: true,
   },*/
+  {
+    title: "PizzaMama",
+    techs: ["Python", "Django"],
+    link: "https://7nayy.pythonanywhere.com",
+  },
 ];
 
 export default projects;
