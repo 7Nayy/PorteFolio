@@ -176,7 +176,7 @@ declare module 'astro:content' {
 		"posts": {
 "02-untitled.md": {
 	id: "02-untitled.md";
-  slug: "untitled";
+  slug: "mindluster";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
